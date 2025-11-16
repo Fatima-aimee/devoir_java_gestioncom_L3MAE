@@ -44,7 +44,7 @@ public class BoutiquierView {
         while (true) {
             System.out.println("Choix du produit à ajouter :");
             List<Produit> produits = produitService.getAllProduits();
-            produits.forEach(p ->System.out.println(p.getId() + " - " + p.getName() + " (PU=" + p.getPu() + ")"));
+            produits.forEach(p ->System.out.println("ID" + p.getId() + " - " + p.getName() + " (PU=" + p.getPu() + ")"));
             System.out.print("ID du produit : ");
             int idProd = Integer.parseInt(scanner.nextLine());
             Produit produit = produitService.getProduitById(idProd);
