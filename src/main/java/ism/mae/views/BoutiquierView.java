@@ -105,7 +105,7 @@ public class BoutiquierView {
     }
    
     public  int  menu(){
-        System.out.println("=====Menu boutiquier=====");
+        System.out.println("\n=====Menu boutiquier=====");
         System.out.println("1-Enregistrer une Commande");
         System.out.println("2-Lister toutes les Commandes");
         System.out.println("3-Afficher les détails d'une Commande");
@@ -128,9 +128,9 @@ public class BoutiquierView {
                     }
                     }
                 case 2 -> {
-                System.out.println("2-Lister toutes les Commandes");
-                List<Commande> commandes=commandeService.getAllCommandes();
-                afficheCommandes(commandes);
+                    System.out.println("2-Lister toutes les Commandes");
+                    List<Commande> commandes=commandeService.getAllCommandes();
+                    afficheCommandes(commandes);
                 }
                 case 3 -> {
                     System.out.println("3-Afficher les détails d'une Commande");

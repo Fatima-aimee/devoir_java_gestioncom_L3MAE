@@ -77,7 +77,7 @@ public  class RsView {
   }
 
   public  int  menu(){
-    System.out.println("=====Menu responsable stock=====");
+    System.out.println("\n=====Menu responsable stock=====");
     System.out.println("1-Ajouter une Categorie");
     System.out.println("2-Lister toutes les Categories");
     System.out.println("3-Ajouter un Produit");
